@@ -1,1 +1,131 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 2em;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  background-color: #f3e6d8;
+  color: hsl(30, 10%, 34%);
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 20px;
+  width: 55%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #302d2c;
+}
+
+hr {
+  border: 1px solid #e4ded8;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+span {
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h2,
+h3,
+li::marker,
+.nutri {
+  color: #7b284f;
+}
+
+li::marker {
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+ul,
+ol {
+  padding: 0 1.4em;
+}
+
+li {
+  padding: 0.6em;
+}
+
+.title-p,
+.ingr-section,
+.instr-section,
+.nutri-section {
+  padding: 1em 0 0.1em;
+}
+
+.prep-section {
+  background-color: #fff5fa;
+  padding: 1.5em 1.5em 0.1em;
+  border-radius: 10px;
+}
+
+.nutrition {
+  display: inline-flex;
+}
+
+.nutrition ul {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nutrition li {
+  list-style: none;
+  padding-right: 15em;
+  padding-left: 2em;
+  border-bottom: 1px solid #e4ded8;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 0.1em 0 0;
+  }
+
+  .container {
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .title-p img {
+    border-radius: 6px;
+  }
+
+  li,
+  ol,
+  ul {
+    margin-right: 0;
+  }
+
+  .nutrition ul {
+    margin-right: 0;
+  }
+
+  .nutrition li {
+    border-bottom: none;
+    padding-left: 0;
+    padding-right: 7.5em;
+    padding-left: 1em;
+  }
+}
